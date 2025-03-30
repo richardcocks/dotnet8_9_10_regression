@@ -18,6 +18,8 @@ internal class Program
 [SimpleJob(RuntimeMoniker.Net80, baseline: true)]
 [SimpleJob(RuntimeMoniker.Net90)]
 [SimpleJob(RuntimeMoniker.Net10_0)]
+[InvocationCount(20)]
+[IterationCount(20)]
 public class OddRegression
 {
     private byte[] first = null!;
